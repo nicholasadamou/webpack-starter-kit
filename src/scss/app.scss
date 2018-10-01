@@ -1,0 +1,13 @@
+/**
+ * App sass entry file.
+ */
+@import './scss/variables';
+
+html,
+body {
+  display: block;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
