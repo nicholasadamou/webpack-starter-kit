@@ -42,7 +42,7 @@ cd my-javascript-app
 yarn install
 
 // Start development server
-yarn dev
+yarn start
 ```
 
 ## License
