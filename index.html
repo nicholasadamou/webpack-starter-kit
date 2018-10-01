@@ -2,15 +2,97 @@
 <html lang="en">
 
 <head>
+  <!--  app metadata  -->
   <title>Webpack Starter Kit</title>
   <meta charset="UTF-8" />
   <meta http-equiv="x-ua-compatible" content="IE=Edge, chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta name="description" id="description" content="A simple webpack starter kit." />
+  <meta name="author" content="Nicholas Adamou" />
+  <meta name="copyright" content="&copy; Nicholas Adamou - All Rights Reserved" />
+
+  <!-- open graph -->
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="Webpack-Starter-Kit" />
+  <meta property="og:type" content="boilerplate" />
+  <meta property="og:title" content="Webpack-Starter-Kit" />
+  <meta property="og:url" content="https://github.com/nicholasadamou/webpack-starter-kit" />
+  <meta property="og:description" content="A simple webpack starter kit." />
+
+  <!-- initial style to get a spinner going before anything else starts loading -->
+  <style type="text/css">
+    @keyframes _spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(359deg);
+      }
+    }
+
+    body {
+      display: block;
+      position: relative;
+      min-height: 100vh;
+      background-color: white;
+      color: black;
+    }
+
+    #spinner {
+      display: block;
+      position: fixed;
+      text-align: center;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      z-index: 9999;
+      transform: translateY(-50%);
+    }
+
+    #spinner>svg {
+      display: block;
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      animation: _spin 2s linear infinite;
+    }
+
+    #spinner>noscript {
+      display: block;
+      max-width: 400px;
+      margin: 0 auto;
+      color: gray;
+    }
+
+    #spinner>noscript>a {
+      color: white;
+    }
+  </style>
+
+  <!-- app icon and styles -->
+  <link href="favicon.ico" rel="shortcut icon" />
   <link rel="stylesheet" href="public/bundles/app.min.css" />
 </head>
 
 <body>
+  <!-- initial spinner -->
+  <div id="spinner">
+    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+      <g>
+        <path d="M50 15A35 35 0 1 0 74.787 25.213" fill="none" stroke="#e0e8ec" stroke-width="10"></path>
+        <path d="M49 3L49 27L61 15L49 3" fill="#e0e8ec"></path>
+      </g>
+    </svg>
+    <noscript>
+      For full functionality of this site it is necessary to enable JavaScript.
+      Here are the instructions on how to <a href="https://www.enable-javascript.com/" target="_blank">enable
+        JavaScript</a>
+      in your web browser.
+    </noscript>
+  </div>
+
+  <div id="app"></div>
   <script src="public/bundles/app.min.js"></script>
 </body>
 
