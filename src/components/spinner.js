@@ -1,4 +1,3 @@
-
 /**
  * Remove page spinner
  */
