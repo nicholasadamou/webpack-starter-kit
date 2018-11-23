@@ -17,7 +17,7 @@
     "ignore-loader": "^0.1.2",
     "node-sass": "^4.5.0",
     "postcss-loader": "^2.1.0",
-    "sass-loader": "^5.0.1",
+    "sass-loader": "^6.0.7",
     "style-loader": "^0.19.1",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.9.3"
