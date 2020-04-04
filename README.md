@@ -3,7 +3,6 @@
 ![license](https://img.shields.io/apm/l/vim-mode.svg)
 [![DevDependencies](https://img.shields.io/david/dev/nicholasadamou/webpack-starter-kit.svg?style=flat-square)](https://david-dm.org/nicholasadamou/webpack-starter-kit#info=devDependencies)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=nicholasadamou/webpack-starter-kit)](https://dependabot.com)
-[![Known Vulnerabilities](https://snyk.io/test/github/nicholasadamou/webpack-starter-kit/badge.svg?targetFile=package.json)](https://snyk.io/test/github/nicholasadamou/webpack-starter-kit?targetFile=package.json)
 [![Say Thanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/NicholasAdamou)
 
 Webpack Starter Kit is an opinionated build automation for front-end Javascript development based on [Webpack](https://webpack.js.org/), [Node](https://nodejs.org/), [NPM](https://www.npmjs.com/), [Babel](https://babeljs.io/), and [SASS](http://sass-lang.com/).
