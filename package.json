@@ -1,5 +1,6 @@
 {
   "name": "webpack-starter-kit",
+  "version": "1.0.0", 
   "license": "MIT",
   "description": "A starter-kit for webpack-based applications that use Vanilla JS.",
   "scripts": {
